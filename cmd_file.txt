@@ -1,0 +1,40 @@
+e:
+
+cd projects
+
+mkdir cfe
+
+cd cfe
+
+copy "%OneDrive%\ceu\metrix 2\bertrand.dta"
+
+dir
+
+.>main.py
+
+notepad main.py
+
+git init
+
+git add .
+
+git config user.email "emil@savalan.ml"
+
+git branch -M main
+
+git remote add origin https://github.com/emilsavalan/cfe.git
+
+git commit -m "initial commit"
+
+git push -u origin main
+
+
+git add .
+
+git commit -m "python part + lib installing"
+
+git push
+
+git add .
+git commit -m "add regressions, fixing and manipulation file"
+git push
